@@ -1,66 +1,61 @@
 {
-  "status": {
-	"code": 200,
-	"msg": "success"
-  },	
-  "ACCode": [
-    {
-      "ActionNo": "1",
-      "ActionName": "CustomerMet",
-      "ActionFeedback": {
-        "ActionFdbk": [
-          {
-            "AckFbkVal": "1",
-            "AckFbkName": "CHQ - Cheque Payment Received",
-            "AckFbkPaid": "0"
-          },
-          {
-            "AckFbkVal": "2",
-            "AckFbkName": "Paid",
-            "AckFbkPaid": "1"
-          }
-        ]
-      }
-    },
+	"status": {
+		"code": 200,
+		"msg": "success"
+	},
+	"ACCode": [{
+			"ActionNo": "1",
+			"ActionName": "CustomerMet",
 
-{
-      "ActionNo": "2",
-      "ActionName": "CustomerCall",
-      "ActionFeedback": {
-        "ActionFdbk": [
-          {
-            "AckFbkVal": "1",
-            "AckFbkName": "CB - Call Back",
-            "AckFbkPaid": "0"
-          },
-          {
-            "AckFbkVal": "2",
-            "AckFbkName": "Dead",
-            "AckFbkPaid": "0"
-          }
-        ]
-      }
-    }
+			"ActionFdbk": [{
+					"AckFbkVal": "1",
+					"AckFbkName": "CHQ - Cheque Payment Received",
+					"AckFbkPaid": "0"
+				},
+				{
+					"AckFbkVal": "2",
+					"AckFbkName": "Paid",
+					"AckFbkPaid": "1"
+				}
+			]
+
+		},
+
+		{
+			"ActionNo": "2",
+			"ActionName": "CustomerCall",
+			"ActionFdbk": [{
+					"AckFbkVal": "1",
+					"AckFbkName": "CB - Call Back",
+					"AckFbkPaid": "0"
+				},
+				{
+					"AckFbkVal": "2",
+					"AckFbkName": "Dead",
+					"AckFbkPaid": "0"
+				}
+			]
+		},
 
 
-{
-      "ActionNo": "3",
-      "ActionName": "Not Contacted",
-      "ActionFeedback": {
-        "ActionFdbk": [
-          {
-            "AckFbkVal": "1",
-            "AckFbkName": "CallNC -",
-            "AckFbkPaid": "0"
-          },
-          {
-            "AckFbkVal": "2",
-            "AckFbkName": "Call WRN",
-            "AckFbkPaid": "0"
-          }
-        ]
-      }
-    }
 
-  ]
+		{
+			"ActionNo": "3",
+			"ActionName": "Not Contacted",
+
+			"ActionFdbk": [{
+					"AckFbkVal": "1",
+					"AckFbkName": "CallNC -",
+					"AckFbkPaid": "0"
+				},
+				{
+					"AckFbkVal": "2",
+					"AckFbkName": "Call WRN",
+					"AckFbkPaid": "0"
+				}
+			]
+
+		}
+
+	]
 }
